@@ -1,17 +1,16 @@
-# C-Console-Project-Assignment-3
+# C-Console-Project-Assignment-4
 
 A simple C# console application developed using .NET 10.0.  
-This project demonstrates user input handling, data conversion, and console output using C#.
+This project calculates the sum and average of three numbers entered by the user.
 
 ---
 
 ## 📌 Project Overview
 
-The application takes user input from the console and displays the entered information, including:
+The application takes three integer numbers as input from the user and calculates:
 
-- Name
-- Age
-- CGPA
+- Total Sum
+- Average Value
 
 This project is created as part of a C# Console Project Assignment.
 
@@ -27,9 +26,9 @@ This project is created as part of a C# Console Project Assignment.
 ## 📂 Project Structure
 
 ```bash
-C-Console-Project-Assignment-3/
+C-Console-Project-Assignment-4/
 │── Program.cs
-│── C-Console-Project-Assignment-3.csproj
+│── C-Console-Project-Assignment-4.csproj
 │── README.md
 ```
 
@@ -46,7 +45,7 @@ git clone <your-repository-url>
 ### Navigate to Project Folder
 
 ```bash
-cd C-Console-Project-Assignment-3
+cd C-Console-Project-Assignment-4
 ```
 
 ### Run the Application
@@ -60,13 +59,14 @@ dotnet run
 ## 💻 Sample Output
 
 ```text
-Enter Your Name: Seam
-Enter Your Age: 22
-Enter Your CGPA: 3.85
+Sum and Average Calculator Program 3 Numbers
 
-Name: Seam
-Age: 22
-CGPA: 3.85
+Enter Your First Number: 10
+Enter Your Second Number: 20
+Enter Your Third Number: 30
+
+Sum: 60
+Average: 20
 ```
 
 ---
@@ -75,9 +75,9 @@ CGPA: 3.85
 
 - Understanding C# console applications
 - Taking user input using `Console.ReadLine()`
-- Converting input data types using `Convert`
-- Using nullable data types
-- Displaying formatted output with string interpolation
+- Converting input data types using `Convert.ToInt32()`
+- Performing arithmetic calculations
+- Displaying formatted output using string interpolation
 - Practicing basic program structure in .NET
 
 ---
