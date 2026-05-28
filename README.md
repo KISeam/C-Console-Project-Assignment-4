@@ -1,4 +1,4 @@
-# C-Console-Project-Assignment-4
+# CSharp-Console-Project-Assignment-4
 
 A simple C# console application developed using .NET 10.0.  
 This project calculates the sum and average of three numbers entered by the user.
